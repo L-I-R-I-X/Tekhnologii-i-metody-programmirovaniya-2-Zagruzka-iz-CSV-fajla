@@ -30,5 +30,4 @@ class Ui_MainWindow(object):
         self.tableWidget.setRowCount(0)
         
         MainWindow.setCentralWidget(self.centralwidget)
-        self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
